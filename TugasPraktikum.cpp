@@ -47,3 +47,6 @@ public:
     double keliling() {
         return 4 * sisi;
     }
+    void cetakKelilingLayang(LayangLayang &l) {
+        cout << "Akses via Friend: Keliling Layang-Layang adalah " << 2 * (l.s1 + l.s2) << endl;
+    }
