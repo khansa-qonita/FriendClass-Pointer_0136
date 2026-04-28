@@ -22,3 +22,8 @@ public:
     double keliling() {
         return 2 * (s1 + s2);
     }
+    void output() {
+        cout << "Luas Layang-Layang: " << luas() << endl;
+        cout << "Keliling Layang-Layang: " << keliling() << endl;
+        cout << "---------------------------" << endl;
+    }
