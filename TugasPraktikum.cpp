@@ -50,3 +50,9 @@ public:
     void cetakKelilingLayang(LayangLayang &l) {
         cout << "Akses via Friend: Keliling Layang-Layang adalah " << 2 * (l.s1 + l.s2) << endl;
     }
+    void output() {
+        cout << "Luas Belah Ketupat: " << luas() << endl;
+        cout << "Keliling Belah Ketupat: " << keliling() << endl;
+        cout << "---------------------------" << endl;
+    }
+};
