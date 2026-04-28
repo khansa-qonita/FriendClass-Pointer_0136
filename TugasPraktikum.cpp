@@ -27,3 +27,5 @@ public:
         cout << "Keliling Layang-Layang: " << keliling() << endl;
         cout << "---------------------------" << endl;
     }
+    friend class BelahKetupat;
+};
