@@ -41,3 +41,6 @@ public:
         cout << "Diagonal 2: "; cin >> d2;
         cout << "Sisi: "; cin >> sisi;
     }
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
