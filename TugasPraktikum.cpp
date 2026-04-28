@@ -16,3 +16,6 @@ public:
         cout << "Sisi Miring 1: "; cin >> s1;
         cout << "Sisi Miring 2: "; cin >> s2;
     }
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
