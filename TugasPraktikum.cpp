@@ -29,3 +29,5 @@ public:
     }
     friend class BelahKetupat;
 };
+
+class BelahKetupat {
