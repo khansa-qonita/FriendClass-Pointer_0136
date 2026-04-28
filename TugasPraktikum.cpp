@@ -44,3 +44,6 @@ public:
     double luas() {
         return 0.5 * d1 * d2;
     }
+    double keliling() {
+        return 4 * sisi;
+    }
