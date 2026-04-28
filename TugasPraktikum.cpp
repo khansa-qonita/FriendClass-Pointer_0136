@@ -56,3 +56,18 @@ public:
         cout << "---------------------------" << endl;
     }
 };
+
+int main() {
+    LayangLayang ly;
+    BelahKetupat bk;
+
+    ly.input();
+    ly.output();
+
+    bk.input();
+    bk.output();
+
+    bk.cetakKelilingLayang(ly);
+
+    return 0;
+}
